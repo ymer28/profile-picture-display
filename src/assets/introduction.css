@@ -1,0 +1,126 @@
+/*style for smartphones*/
+.profile_shortened_name {
+    color: #4d4c4c;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  #name {
+    margin-bottom: 1rem;
+  }
+  .profile_picture_button {
+    color: white;
+    font-size: 0.5rem;
+    width: 100%;
+    background-color: black;
+    border-radius: 30px;
+    padding: 8px 8px;
+    margin-top: 5px;
+  }
+  .profile_name_selectbox {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .select_box_sentence {
+    font-size: 0.7rem;
+  }
+  .select_box {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0.7rem;
+  }
+  .profile_container {
+    width: 100%;
+    display: flex;
+  }
+  .profile_information_subcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-top: 15%;
+  }
+  .profile_image_subcontainer {
+    width: 50%;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile_image {
+    border-radius: 50%;
+    width: 30%;
+    position: absolute;
+    z-index: 0;
+  }
+  .triangle_left {
+      width: 0;
+      height: 0;
+      border-top: 120px solid transparent;
+      border-right: 140px solid white;
+      border-bottom: 120px solid transparent;
+    z-index: 1;
+    padding-right: 62%;
+    display: inline;
+  }
+  .picture {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  /* Style for tablets*/ 
+  @media (min-width: 40rem) {
+    .profile_shortened_name {
+      color: #4d4c4c;
+      margin-bottom: 0;
+      font-size: 2rem;
+    }
+    .profile_picture_button {
+      font-size:0.8rem;
+      width: 80%;
+      background-color: black;
+      border-radius: 50px;
+      padding: 10px 12px;
+      margin-top: 5px;
+    }
+    .profile_image_subcontainer {
+      padding-top: 5%;
+    }
+    .select_box {
+      font-size: 1rem;
+    }
+    .select_box_sentence {
+      font-size: 1rem;
+    }
+  }
+  /* Style for notebooks/desktops*/ 
+  @media (min-width: 52rem) {
+    .profile_shortened_name {
+      color: #4d4c4c;
+      margin-bottom: 0;
+      font-size: 3rem;
+    }
+    #name {
+      margin-bottom: 0;
+    }
+    .profile_picture_button {
+      font-size:1rem;
+      width: 60%;
+      background-color: black;
+      border-radius: 50px;
+      padding: 10px 12px;
+      margin-top: 5px;
+    }
+    .profile_image_subcontainer {
+      padding-top: 0;
+    }
+    .select_box {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 1rem;
+    }
+    .select_box_sentence {
+      font-size: 1.2rem;
+    }
+    .picture {
+      padding-top: 15%;
+    }
+  }
