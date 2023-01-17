@@ -4,7 +4,7 @@
       <span class="profile_shortened_name">Bonjour</span>
       <span class="profile_shortened_name" id="name">{{ shortenedName }}</span>
       <div class="profile_name_selectbox">
-        <span class="select_box_sentence">Sélectionner un nouveau profil à l'aide de cette liste:</span>
+        <span class="select_box_sentence">Sélectionner un nouveau profil à l'aide de cette liste :</span>
         <select class="select_box" v-model="selected">
             <option v-for="(data, index) in datalist" :key="index"> 
               {{ data.name.first }} {{ data.name.last }} 
@@ -23,7 +23,7 @@
 </template>
 <script>
   import axios from "axios";
-  import '../assets/profile.css'
+  import "../assets/profile.css";
   export default {
     data() {
       return {
