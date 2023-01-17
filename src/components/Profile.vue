@@ -23,7 +23,7 @@
 </template>
 <script>
   import axios from "axios";
-  import '../assets/introduction.css'
+  import '../assets/profile.css'
   export default {
     data() {
       return {
